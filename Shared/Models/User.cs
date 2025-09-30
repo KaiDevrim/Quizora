@@ -7,6 +7,9 @@ public class User
     public string Email { get; set; }
     public string PasswordHash { get; set; }
     
+    public AuthProvider AuthMethod { get; set; }
+    public string GoogleUserId { get; set; }
+    
     public DateTime RegistrationDate { get; set; }
     public string Role { get; set; }
     
